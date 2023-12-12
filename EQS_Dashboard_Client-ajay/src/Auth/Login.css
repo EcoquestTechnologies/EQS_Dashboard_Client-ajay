@@ -1,0 +1,68 @@
+/* Login Page  */
+.login_home{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login_home .col_6{
+    padding:30px 50px 50px 50px;
+    border: 1px solid #f8f8f8;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .login_home label{
+    padding-top: 10px;
+    color: #495057b3;
+    font-size: 16px;
+    font-family: system-ui;
+  }
+  .login_home .form-control {
+    padding: 25px;
+    background-color: #f7f7f7 !important;
+  }
+  .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da !important;
+    outline: 0;
+    box-shadow: none !important;
+  }
+  
+  .login_home h4{
+    font-size: 30px;
+    color: #ff8135;
+    font-family: system-ui;
+  }
+  .login_home p{
+    color: #495057b3;
+    font-size: 16px;
+    font-family: system-ui;
+  }
+  .login_home button{
+    background-color: #ff8135;
+    padding: 8px 0px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .login_home button:hover{
+    background-color: #ff8135;
+    padding: 8px 0px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .password-input {
+    position: relative;
+  }
+  
+  .eye-icon {
+    position: absolute;
+    top: 47%;
+    right: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  /* Login Page  */

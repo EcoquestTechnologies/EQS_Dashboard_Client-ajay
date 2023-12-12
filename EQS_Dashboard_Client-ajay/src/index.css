@@ -1,0 +1,1040 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fbfafb !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.custom-toast-custom {
+  background-color: grey !important;
+}
+
+/* Desktop MeadiaQuery */
+
+@media (min-width: 992px) {
+  .bodyy {
+    display: block;
+    /* Hide the content when the screen width is below 991px */
+  }
+
+  .bodyyyy {
+    display: none;
+
+  }
+}
+
+@media (max-width: 992px) {
+  .bodyy {
+    display: none;
+    /* Hide the content when the screen width is below 991px */
+  }
+
+  .bodyyyy {
+    display: block;
+
+  }
+}
+
+/* Desktop MeadiaQuery */
+
+
+.header {
+  background-color: rgb(230, 229, 229);
+  padding: 20px;
+
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+}
+
+.header h4 {
+  color: rgb(118, 117, 117);
+  font-weight: 700;
+}
+
+.attendance {
+  color: rgb(118, 117, 117);
+  font-weight: 700;
+}
+
+.header p {
+  color: rgb(109, 109, 109);
+  margin: 0;
+  font-weight: 500;
+}
+
+.user-list {
+  list-style-type: none;
+
+}
+
+.vertical-element {
+  height: 300px;
+  /* or max-height: 300px; */
+  overflow-y: auto;
+  /* or scroll; */
+}
+
+.vertical-timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: #2196f3;
+}
+
+.punch-out {
+  background-color: red !important;
+}
+
+.punch-in {
+  background-color: green !important;
+}
+
+
+
+.punch {
+  border-radius: 200px;
+  height: 100px;
+  width: 100px;
+  background: #e79d6c;
+  border: 5px solid rgb(118, 105, 105);
+  color: #692a69;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+
+
+.input-box {
+  /* border: 1px solid grey; */
+  height: 60px;
+  width: 250px;
+  border-radius: 8px;
+
+}
+
+.search-button {
+  background-color: #ff8135;
+}
+
+.status-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 5px;
+  width: 100px;
+}
+
+/* Side Bar  */
+
+
+a.ps-menu-button {
+  color: #fff;
+}
+
+.right-sidebar {
+  left: auto;
+  right: 0;
+  transform: translateX(100%);
+}
+
+.css-1t8x7v1>.ps-menu-button:hover {
+  background-color: #ff8135 !important;
+  border-radius: 10px;
+  color: #fff !important;
+}
+
+.sidebarbtn {
+  padding-top: 50px !important;
+}
+
+.css-1wvake5 {
+  border: none !important;
+}
+
+/* Side Bar  */
+
+/* Navbar  */
+.nav_sec {
+  background-color: #000;
+  margin-bottom: -90px;
+}
+
+.nav_logo {
+  width: 200px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: -50px !important;
+  z-index: 1000;
+  display: none;
+  float: right;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 0.25rem;
+}
+
+.nav_dropdown:focus {
+  box-shadow: none !important;
+}
+
+.nav_pro_icon {
+
+  color: #ff8135;
+
+}
+
+/* Navbar  */
+
+/* admin Dashboard  */
+.admin_dashboard {
+  margin-top: 100px;
+  margin-left: 230px !important;
+  overflow-x: hidden;
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.admin_dashboard_statistic {
+  background-color: #FFD700;
+  text-align: center;
+  border-radius: 50%;
+  padding: 25px;
+  height: 30px;
+  width: 30px;
+}
+
+.admin_dashboard_statistic_icon {
+  color: #000;
+  font-size: 20px;
+  position: relative;
+  top: -22px;
+  right: 10px;
+
+}
+
+.ant-statistic-content {
+  display: flex;
+
+}
+
+span.ant-statistic-content-value {
+  padding-top: 4px;
+  padding-left: 20PX;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.admin_static_card {
+  width: 240px;
+}
+
+.admin_static_card2 {
+  width: 705px;
+}
+
+.attendence2 {
+  font-size: 25px !important;
+  font-family: revert !important;
+}
+
+.attendence {
+  color: #ff8135;
+  font-size: 15px;
+}
+
+/* admin Dashboard  */
+
+
+/* Scroll Bar CSS */
+::-webkit-scrollbar {
+  width: 1px;
+  /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  /* color of the draggable scroll handle */
+  border-radius: 6px;
+  /* roundness of the scroll handle */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  /* color of the track */
+}
+
+/* For Firefox */
+/* Note: Firefox uses a different set of properties */
+
+/* width of the scrollbar */
+html {
+  scrollbar-width: thin;
+}
+
+/* color of the draggable scroll handle */
+html {
+  scrollbar-color: #888 #f1f1f1;
+}
+
+
+/* Scroll Bar CSS */
+
+
+.header {
+  background-color: rgb(230, 229, 229);
+  padding: 20px;
+
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+}
+
+.header h4 {
+  color: rgb(118, 117, 117);
+  font-weight: 700;
+}
+
+.attendance {
+  color: rgb(118, 117, 117);
+  font-weight: 700;
+}
+
+.header p {
+  color: rgb(109, 109, 109);
+  margin: 0;
+  font-weight: 500;
+}
+
+.user-list {
+  list-style-type: none;
+
+}
+
+.vertical-element {
+  height: 300px;
+  /* or max-height: 300px; */
+  overflow-y: auto;
+  /* or scroll; */
+}
+
+.vertical-timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: #2196f3;
+}
+
+.punch-out {
+  background-color: red !important;
+}
+
+.punch-in {
+  background-color: green !important;
+}
+
+
+
+.punch {
+  border-radius: 200px;
+  height: 100px;
+  width: 100px;
+  background: #ff8135;
+  /* border: 4px solid rgb(163, 159, 159); */
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+
+
+.search-button {
+  background-color: #ff8135;
+}
+
+.status-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 5px;
+  width: 100px;
+}
+
+.btn-grad {
+  background-color: #ff8135;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+/* .btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+} */
+
+
+
+::-webkit-scrollbar {
+  width: 0px;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #bfbdbf;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #333;
+}
+
+.card_item {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  ;
+  border: none;
+}
+
+/* Employee Dashboard */
+
+
+/* Side Bar  */
+
+a.ps-menu-button {
+  color: #fff;
+}
+
+.right-sidebar {
+  left: auto;
+  right: 0;
+  transform: translateX(100%);
+}
+
+.css-1t8x7v1>.ps-menu-button:hover {
+  background-color: #ff8135 !important;
+  border-radius: 10px;
+  color: #fff !important;
+}
+
+.link_item {
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.link_item:hover {
+  text-decoration: none;
+}
+
+
+
+.css-1wvake5 {
+  border: none !important;
+}
+
+/* Side Bar  */
+
+.header {
+  background-color: rgb(230, 229, 229);
+  padding: 20px;
+
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+}
+
+.header h4 {
+  color: rgb(118, 117, 117);
+  font-weight: 700;
+}
+
+.attendance {
+  color: rgb(118, 117, 117);
+  font-weight: 700;
+}
+
+.header p {
+  color: rgb(109, 109, 109);
+  margin: 0;
+  font-weight: 500;
+}
+
+.user-list {
+  list-style-type: none;
+
+}
+
+.vertical-element {
+  height: 300px;
+  /* or max-height: 300px; */
+  overflow-y: auto;
+  /* or scroll; */
+}
+
+.vertical-timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: #2196f3;
+}
+
+.punch-out {
+  background-color: red !important;
+}
+
+.punch-in {
+  background-color: green !important;
+}
+
+
+
+.punch {
+  border-radius: 200px;
+  height: 100px;
+  width: 100px;
+  background: #ff8135;
+  /* border: 4px solid rgb(163, 159, 159); */
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.search-button {
+  background-color: #ff8135;
+}
+
+.status-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 5px;
+  width: 100px;
+}
+
+.btn-grad1 {
+  background-color: #ff8135;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  border: none;
+  padding: 8px 20px;
+}
+
+/* .btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+} */
+
+
+
+::-webkit-scrollbar {
+  width: 0px;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #bfbdbf;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #333;
+}
+
+.card_item {
+  box-shadow: 1px 1px 2px 2px whitesmoke;
+  border: none;
+}
+
+.ant-card-body {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+  border-radius: 10px !important;
+}
+
+:where(.css-dev-only-do-not-override-zcfrx9).ant-card-bordered {
+  border: none;
+  background: none;
+}
+
+/* Employee Dashboard */
+
+
+
+/* Side Bar  */
+.ps-sidebar-container.css-dip3t8 {
+  padding-top: 0px !important;
+  background-color: rgb(0, 0, 0);
+
+}
+
+a.ps-menu-button {
+  color: #fff;
+}
+
+.right-sidebar {
+  left: auto;
+  right: 0;
+  transform: translateX(100%);
+}
+
+.css-1t8x7v1>.ps-menu-button:hover {
+  background-color: #ff8135 !important;
+  border-radius: 10px;
+  color: #fff !important;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+
+.css-1wvake5 {
+  border: none !important;
+}
+
+/* Side Bar  */
+
+/* Navbar  */
+.nav_sec {
+  background-color: #000;
+  margin-bottom: -90px;
+}
+
+.nav_logo {
+  width: 170px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: -50px !important;
+  z-index: 1000;
+  display: none;
+  float: right;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 0.25rem;
+}
+
+.nav_dropdown:focus {
+  box-shadow: none !important;
+}
+
+.nav_pro_icon {
+
+  color: #ff8135;
+
+}
+
+.nav_link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.active {
+  color: orange !important;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+/* Navbar  */
+
+
+/* Employee Payslips */
+
+.ant-card-head {
+  border-bottom: none !important;
+}
+
+.button:hover {
+  border: none !important;
+}
+
+.ant-pagination .ant-pagination-item-active {
+  border: 1px solid #ff8135 !important;
+}
+
+
+/* Employee Payslips */
+
+
+/* Employee Attendance */
+
+.form_item {
+  /* border: 1px solid grey; */
+  border-radius: 8px;
+}
+
+.search_btn {
+  color: #ffffff !important;
+  height: 40px !important;
+  width: 100% !important;
+  padding: 8px 30px !important;
+  border-radius: 8px !important;
+  background-color: #ff8135 !important;
+}
+
+.makeStyles-header-3 {
+  color: white !important;
+  background-color: #ff8135 !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+
+}
+
+/* Employee Attendance */
+
+/* Admin All Employess*/
+label.MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated {
+  padding-left: 10px;
+  font-size: 13px;
+  padding-top: 15px;
+}
+
+.MuiPaper-elevation8 {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-colorSecondary.MuiSvgIcon-fontSizeMedium.css-kw0y8f-MuiSvgIcon-root {
+  font-size: 15px !important;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-colorAction.MuiSvgIcon-fontSizeMedium.css-11pbyhm-MuiSvgIcon-root {
+  font-size: 15px !important;
+}
+
+.MuiPaper-elevation1 {
+  border-radius: 10px !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+}
+
+.MuiInput-underline:before {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "\00a0";
+  position: absolute;
+  transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-bottom: none !important;
+  pointer-events: none;
+}
+
+.MuiInputBase-input {
+  border-radius: 10px !important;
+  font: inherit;
+  color: currentColor;
+  width: 100%;
+  border: none !important;
+  height: 1.1876em;
+  margin: 0;
+  display: block;
+  padding: 15px 0 15px !important;
+  min-width: 0;
+  background: none;
+  box-sizing: content-box;
+  animation-name: mui-auto-fill-cancel;
+  letter-spacing: inherit;
+  animation-duration: 10ms;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+}
+
+
+/* Admin All Employess*/
+
+
+
+
+/* change password */
+
+/* Admin Leaves  */
+.MuiInput-underline.Mui-focused:after {
+  transform: none !important;
+}
+
+.MuiSelect-select.MuiSelect-select {
+  padding: 12px !important;
+}
+
+.MuiSelect-icon {
+  /* padding-left: 5px; */
+  top: calc(50% - 12px);
+  color: rgba(0, 0, 0, 0.54);
+  right: -1px !important;
+  position: absolute;
+  pointer-events: none;
+}
+
+.MuiSelect-root.MuiSelect-select.MuiSelect-selectMenu.MuiInputBase-input.MuiInput-input {
+  font-size: 13px !important;
+}
+
+input.MuiInputBase-input.MuiInput-input {
+  font-size: 13px !important;
+  padding-left: 10px !important;
+  padding-right: 5px !important;
+}
+
+/* Admin Leaves  */
+
+
+/* Admin Payslip  */
+.admin_paysliptable {
+  padding: 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+
+/* Admin Payslip  */
+
+
+/* Admin Holiday  */
+.MuiPaper-root.MuiMenu-paper.MuiPopover-paper.MuiPaper-elevation8.MuiPaper-rounded {
+  padding: 0px 22px;
+  opacity: 1;
+  transform: none;
+  transition: opacity 232ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, transform 155ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  top: 240px;
+  /* left: 860px !important; */
+  transform-origin: 0px 25px;
+}
+
+/* Admin Holiday  */
+
+sup {
+
+  color: red;
+  font-size: 18px;
+  top: -0.2em;
+}
+
+.nav_logo1 {
+  height: 100px;
+}
+
+.card_item1 {
+  box-shadow: 1px 3px 5px 5px whitesmoke;
+  border: none;
+}
+
+/* change password */
+
+
+
+
+/* All Page MediaQuery */
+
+@media screen and (min-width: 993px) and (max-width: 1250px) {
+
+  /* Employee dashboard */
+  .btn-grad1 {
+    font-size: 10px;
+  }
+
+  .employee_timeset {
+    font-size: 18px;
+  }
+
+  .employee_working {
+    font-size: 15px;
+  }
+
+  .Employee_activity {
+    font-size: 17px;
+  }
+
+  .dash-title {
+    font-size: 17px;
+  }
+
+  /* Employee dashboard */
+
+  /* Payslips */
+  .employee_card {
+    width: 650px !important;
+  }
+
+  .employee_month_card {
+    width: 200px !important;
+  }
+
+  /* Payslips */
+
+
+  /* Change Password */
+  .employee_password {
+    width: 600px !important;
+  }
+
+  /* Change Password */
+
+}
+
+
+/* styles.css */
+
+.nav_link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.active {
+  color: orange !important;
+  font-weight: bold;
+}
+
+
+
+.ant-select-selector{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    padding: 20px !important;
+}
+
+
+
+
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+  color: var(--bs-btn-active-color);
+  background-color: var(--bs-btn-active-bg);
+  background-color: black !important;
+}
+/* .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-formControl.MuiInput-formControl{
+  width: 300px !important;
+} */
+
+
+/* My Profile Css */
+
+.img_card{
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+  border-radius: 10px;
+  height: 290px;
+  width: 100%;
+}
+.img_card1{
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+  border-radius: 10px;
+  height: auto;
+  width: 100%;
+}
+.table_row{
+  height: 50px !important;
+  overflow-y: scroll !important;
+}
+.emp_colors{
+  color: #292929da;
+  padding-left: 5px;
+}
+
+.pagenation_item{
+  padding-left: 250px;
+}
+/* My Profile Css */
+
+.depart_card{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+
+:where(.css-dev-only-do-not-override-zcfrx9).ant-input-affix-wrapper:focus, :where(.css-dev-only-do-not-override-zcfrx9).ant-input-affix-wrapper:focus-within {
+  border-color: #ddd !important;
+  box-shadow: 0 0 0 2px rgba(5, 145, 255, 0.1);
+  outline: 0;
+}
+:where(.css-dev-only-do-not-override-zcfrx9).ant-input-affix-wrapper:hover {
+  border-color: #ddd !important;
+}
+
+:where(.css-dev-only-do-not-override-zcfrx9).ant-timeline .ant-timeline-item-head-blue{
+  border-color: #ddd !important;
+  color: #ddd !important;
+}
