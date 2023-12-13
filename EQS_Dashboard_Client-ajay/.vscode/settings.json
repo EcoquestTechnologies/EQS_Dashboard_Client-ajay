@@ -1,8 +1,0 @@
-{
-    "appService.zipIgnorePattern": [
-        "node_modules{,/**}",
-        ".vscode{,/**}"
-    ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/ea306180-2d4e-4536-a492-ccc30d0aa21f/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/Eco-DashBoradClient",
-    "appService.deploySubpath": "."
-}
